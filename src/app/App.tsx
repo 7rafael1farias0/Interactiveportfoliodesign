@@ -57,7 +57,7 @@ export default function App() {
           >
             <div className="space-y-3">
               <LanguageBar language="Português" level={100} />
-              <LanguageBar language="Inglês" level={60} />
+              <LanguageBar language="Inglês" level={40} />
             </div>
           </PortfolioCard>
 
@@ -92,6 +92,7 @@ export default function App() {
 
               <h4 className="text-white/80 font-semibold mb-2 mt-4">DIO</h4>
               <CertItem title="GitHub Copilot - Código na prática" hours="12h" />
+              <CertItem title="JavaScript Developer" hours="39h" />
             </div>
           </PortfolioCard>
 
